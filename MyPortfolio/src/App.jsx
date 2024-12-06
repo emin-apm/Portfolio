@@ -1,9 +1,10 @@
+import HomePage from "./pages/HomePage";
+
+// Need to add raouter
 function App() {
   return (
     <>
-      <h1>Hello World!</h1>
-      <h1>testasd</h1>
-      <i class="fa-solid fa-link"></i>
+      <HomePage />
     </>
   );
 }
