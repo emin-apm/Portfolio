@@ -2,11 +2,7 @@ import HomePage from "./pages/HomePage";
 
 // Need to add raouter
 function App() {
-  return (
-    <>
-      <HomePage />
-    </>
-  );
+  return <HomePage />;
 }
 
 export default App;
