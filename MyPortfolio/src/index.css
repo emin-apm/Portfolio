@@ -3,20 +3,6 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css');
 
 
-
-* {
-    font-family: "Poppins", sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
 :root {
     --lightgray: #d9d9d9;
     --gray: #9c9c9c;
@@ -70,7 +56,38 @@ html {
     }
 }
 
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--normal-font-size);
+}
+
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+}
 
 img {
     max-width: 100%;
