@@ -25,6 +25,22 @@ html {
     --caloryCard: #656565;
     --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
     --appColor: #3c3f45;
+
+
+    /* Color mode HSL(huemsaturation,lighness) */
+
+    --hue: 0;
+    --sat: 0%;
+    --title-color: hsl(var(--hue), var(--sat), 20%);
+    --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+    --text-color: hsl(var(--hue), var(--sat), 46%);
+    --body-color: hsl(var(--hue), var(--sat), 98%);
+    --container-color: #fff;
+
+    /* Fonts */
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
 }
 
 img {
