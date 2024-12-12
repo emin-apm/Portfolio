@@ -100,20 +100,29 @@ button {
     outline: none;
 }
 
+/* REUSABLE CLASSES */
 .section {
     padding: 6rem 0 2rem;
 }
 
+.sectionTitle {
+    font-size: var(--h1-font-size);
+    color: var(--title-color);
+}
+
 .sectionSubtitles {
     display: block;
+    font-size: var(--smaller-font-size);
     margin-bottom: 4rem;
 }
 
-.sectiontitle,
+.sectionTitle,
 .sectionSubtitles {
     text-align: center;
 }
 
+
+/* LAYOUT */
 .container {
     max-width: 968px;
     margin-left: auto;
@@ -125,20 +134,23 @@ button {
     gap: 1.5rem;
 }
 
+
+/* BUTTONS */
 .button {
-    background-color: red;
     display: inline-block;
+    background-color: var(--title-color);
+    color: var(--container-color);
     padding: 1.25rem 2rem;
     border-radius: 1rem;
-    font-weight: 500;
+    font-weight: var(--font-medium);
 }
 
 .button:hover {
-    background-color: wheat;
+    background-color: var(--title-color-dark);
 }
 
 .buttonIcon {
-    margin-left: 5em;
+    margin-left: 0.5rem;
 }
 
 .buttonFlex {
