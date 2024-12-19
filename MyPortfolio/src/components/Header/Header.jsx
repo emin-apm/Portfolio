@@ -6,7 +6,7 @@ export default function Header({ title = "Header" }) {
       <header className={styles.header}>
         <div className={`${styles.nav} container`}>
           <a href="" className="nav__logo">
-            Emin
+            Emin App
           </a>
           <div className="nav__menu">
             <ul className="nav__list grid">
