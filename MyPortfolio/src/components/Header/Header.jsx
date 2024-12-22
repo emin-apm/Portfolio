@@ -8,7 +8,7 @@ export default function Header({ title = "Header" }) {
           <a href="" className={styles.nav__logo}>
             Emin App
           </a>
-          <div className="nav__menu">
+          <div className={styles.nav__menu}>
             <ul className={styles.nav__list}>
               <li className={styles.nav__item}>
                 <a href="#home" className={styles.nav__link}>
@@ -28,6 +28,22 @@ export default function Header({ title = "Header" }) {
                 <a href="" className={styles.nav__link}>
                   <i className={`fa-solid fa-book ${styles.nav__icon}`}></i>
                   Skills
+                </a>
+              </li>
+              <li className={styles.nav__item}>
+                <a href="#projects" className={styles.nav__link}>
+                  <i
+                    className={`fa-solid fa-file-code ${styles.nav__icon}`}
+                  ></i>
+                  Projects
+                </a>
+              </li>
+              <li className={styles.nav__item}>
+                <a href="#projects" className={styles.nav__link}>
+                  <i
+                    className={`fa-solid fa-file-code ${styles.nav__icon}`}
+                  ></i>
+                  Projects
                 </a>
               </li>
               <li className={styles.nav__item}>
