@@ -49,3 +49,17 @@
 .nav__link:hover {
     color: var(--title-color-dark);
 }
+
+
+@media screen and (max-width:768px) {
+    .header {
+        top: initial;
+        bottom: 0;
+    }
+
+    .nav {
+        height: 5rem;
+    }
+
+    .nav__menu {}
+}
