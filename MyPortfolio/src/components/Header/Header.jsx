@@ -1,6 +1,13 @@
+import { useState } from "react";
 import styles from "./HeaderStyles.module.css";
 
 export default function Header({ title = "Header" }) {
+  const [toggle, showMenu] = useState(false);
+
+  const toggleMenu = () => {
+    showMenu((state) => (state = !toggle));
+  };
+
   return (
     <>
       <header className={styles.header}>
@@ -8,8 +15,14 @@ export default function Header({ title = "Header" }) {
           <a href="" className={styles.nav__logo}>
             Emin App
           </a>
-          <div className={styles.nav__menu}>
-            <ul className={styles.nav__list}>
+          <div
+            className={
+              toggle
+                ? `${styles.nav__menu} ${styles.active}`
+                : `${styles.nav__menu} `
+            }
+          >
+            <ul className={`${styles.nav__list} grid`}>
               <li className={styles.nav__item}>
                 <a href="#home" className={styles.nav__link}>
                   <i className={`fa-solid fa-house ${styles.nav__icon}`}></i>
@@ -55,10 +68,13 @@ export default function Header({ title = "Header" }) {
                 </a>
               </li>
             </ul>
-            <i className={`fa-solid fa-x ${styles.nav__close}`}></i>
+            <i
+              className={`fa-solid fa-x ${styles.nav__close}`}
+              onClick={toggleMenu}
+            ></i>
           </div>
 
-          <div className={styles.nav__toggle}>
+          <div className={styles.nav__toggle} onClick={toggleMenu}>
             <i className="fa-solid fa-table-cells-large"></i>
           </div>
         </div>
