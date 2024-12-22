@@ -5,37 +5,44 @@ export default function Header({ title = "Header" }) {
     <>
       <header className={styles.header}>
         <div className={`${styles.nav} container`}>
-          <a href="" className="nav__logo">
+          <a href="" className={styles.nav__logo}>
             Emin App
           </a>
           <div className="nav__menu">
-            <ul className="nav__list grid">
-              <li className="nav__item">
-                <a href="#home" className="nav__link">
-                  <i className="fa-solid fa-house nav__icon"></i>Home
+            <ul className={styles.nav__list}>
+              <li className={styles.nav__item}>
+                <a href="#home" className={styles.nav__link}>
+                  <i className={`fa-solid fa-house ${styles.nav__icon}`}></i>
+                  Home
                 </a>
               </li>
-              <li className="nav__item">
-                <a href="#about" className="nav__link">
-                  <i className="fa-solid fa-house nav__icon"></i>About
+              <li className={styles.nav__item}>
+                <a href="#about" className={styles.nav__link}>
+                  <i
+                    className={`fa-solid fa-circle-info ${styles.nav__icon}`}
+                  ></i>
+                  About
                 </a>
               </li>
-              <li className="nav__item">
-                <a href="" className="nav__link">
-                  <i className="fa-solid fa-book"></i>Skills
+              <li className={styles.nav__item}>
+                <a href="" className={styles.nav__link}>
+                  <i className={`fa-solid fa-book ${styles.nav__icon}`}></i>
+                  Skills
                 </a>
               </li>
-              <li className="nav__item">
-                <a href="" className="nav__link">
-                  <i className="fa-solid fa-file-code"></i>Projects
+              <li className={styles.nav__item}>
+                <a href="#projects" className={styles.nav__link}>
+                  <i
+                    className={`fa-solid fa-file-code ${styles.nav__icon}`}
+                  ></i>
+                  Projects
                 </a>
               </li>
             </ul>
-
-            <i className="fa-solid fa-x"></i>
+            <i className={`fa-solid fa-x ${styles.nav__close}`}></i>
           </div>
 
-          <div className="nav__toggle">
+          <div className={styles.nav__toggle}>
             <i className="fa-solid fa-table-cells-large"></i>
           </div>
         </div>
