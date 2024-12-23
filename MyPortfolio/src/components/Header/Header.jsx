@@ -22,7 +22,7 @@ export default function Header({ title = "Header" }) {
                 : `${styles.nav__menu} `
             }
           >
-            <ul className={`${styles.nav__list} grid`}>
+            <ul className={`${styles.nav__list} `}>
               <li className={styles.nav__item}>
                 <a href="#home" className={styles.nav__link}>
                   <i className={`fa-solid fa-house ${styles.nav__icon}`}></i>
