@@ -31,40 +31,34 @@ export default function Header({ title = "Header" }) {
               </li>
               <li className={styles.nav__item}>
                 <a href="#about" className={styles.nav__link}>
-                  <i
-                    className={`fa-solid fa-circle-info ${styles.nav__icon}`}
-                  ></i>
+                  <i className={`fa-solid fa-user ${styles.nav__icon}`}></i>
                   About
                 </a>
               </li>
               <li className={styles.nav__item}>
                 <a href="" className={styles.nav__link}>
-                  <i className={`fa-solid fa-book ${styles.nav__icon}`}></i>
+                  <i
+                    className={`fa-solid fa-file-lines ${styles.nav__icon}`}
+                  ></i>
                   Skills
                 </a>
               </li>
               <li className={styles.nav__item}>
                 <a href="#projects" className={styles.nav__link}>
-                  <i
-                    className={`fa-solid fa-file-code ${styles.nav__icon}`}
-                  ></i>
+                  <i className={`fa-solid fa-image ${styles.nav__icon}`}></i>
                   Projects
                 </a>
               </li>
               <li className={styles.nav__item}>
                 <a href="#projects" className={styles.nav__link}>
-                  <i
-                    className={`fa-solid fa-file-code ${styles.nav__icon}`}
-                  ></i>
-                  Projects
+                  <i className={`fa-solid fa-envelope ${styles.nav__icon}`}></i>
+                  Contacts
                 </a>
               </li>
               <li className={styles.nav__item}>
                 <a href="#projects" className={styles.nav__link}>
-                  <i
-                    className={`fa-solid fa-file-code ${styles.nav__icon}`}
-                  ></i>
-                  Projects
+                  <i className={`fa-solid fa-message ${styles.nav__icon}`}></i>
+                  Testimonials
                 </a>
               </li>
             </ul>
