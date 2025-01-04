@@ -105,26 +105,26 @@ button {
     padding: 6rem 0 2rem;
 }
 
-.sectionTitle {
+.section_title {
     font-size: var(--h1-font-size);
     color: var(--title-color);
 }
 
-.sectionSubtitles {
+.section_subtitles {
     display: block;
     font-size: var(--smaller-font-size);
     margin-bottom: 4rem;
 }
 
-.sectionTitle,
-.sectionSubtitles {
+.section_title,
+.section_subtitles {
     text-align: center;
 }
 
 
 /* LAYOUT */
 .container {
-    max-width: 968px;
+    max-width: 1020px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -149,11 +149,11 @@ button {
     background-color: var(--title-color-dark);
 }
 
-.buttonIcon {
+.button_icon {
     margin-left: 0.5rem;
 }
 
-.buttonFlex {
+.button_flex {
     display: inline-flex;
     align-items: center;
 }
