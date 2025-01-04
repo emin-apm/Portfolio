@@ -1,5 +1,6 @@
 import Data from "./Data";
 import styles from "./HeroStyles.module.css";
+import ScrollDown from "./ScrollDown";
 import Social from "./Social";
 
 export default function Hero() {
@@ -12,6 +13,7 @@ export default function Hero() {
             <div className={styles.home_img}></div>
             <Data />
           </div>
+          <ScrollDown />
         </div>
       </section>
     </>

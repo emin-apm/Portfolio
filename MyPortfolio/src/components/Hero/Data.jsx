@@ -11,7 +11,7 @@ export default function Data() {
       </p>
       <a href="" className="button button_flex">
         Say Hello
-        <i class="fa-regular fa-paper-plane"></i>
+        <i className={`${styles.data_icon} fa-regular fa-paper-plane`}></i>
       </a>
     </div>
   );
