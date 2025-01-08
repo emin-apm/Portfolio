@@ -167,13 +167,20 @@ button {
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
+  body {
+    margin-bottom: 5rem;
+  }
+
   .section {
     padding: 0.2rem 0 2rem;
   }
+
+  .section_subtitles {
+    margin-bottom: 3rem;
+  }
 }
 
-@media screen and (max-width: 576px) {
-}
+@media screen and (max-width: 576px) {}
 
 /* For small devices */
 @media screen and (max-width: 350px) {
