@@ -23,7 +23,10 @@ export default function About() {
             <br /> I'm not just into coding, I'm also a sports enthusiast! I'm
             always open to new opportunities to expand my skill set.
           </p>
-          <div className="button button_flex">Check CV</div>
+          <div className="button button_flex">
+            Check CV
+            <i class={`${styles.cv_icon} fa-regular fa-file-lines`}></i>
+          </div>
         </div>
       </div>
     </section>
