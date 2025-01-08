@@ -159,9 +159,7 @@ button {
   .container {
     margin: 0 1.5rem;
   }
-  .section {
-    padding: 0.2rem 0 2rem;
-  }
+
   .button {
     padding: 1rem 1.75rem;
   }
@@ -169,6 +167,9 @@ button {
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
+  .section {
+    padding: 0.2rem 0 2rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
