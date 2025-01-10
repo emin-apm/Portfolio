@@ -9,36 +9,36 @@ export default function Frontend() {
           <div className={styles.skill_data}>
             <i className="fa-brands fa-square-js"></i>
             <div>
-              <h3 className={styles.skill_name}>JavaScript</h3>
-              <span className={styles.skill_level}></span>
+              <h3 className={styles.skill_name}>HTML</h3>
+              <span className={styles.skill_level}>advanced</span>
+            </div>
+          </div>
+          <div className={styles.skill_data}>
+            <i className="fa-brands fa-square-js"></i>
+            <div>
+              <h3 className={styles.skill_name}>CSS</h3>
+              <span className={styles.skill_level}>advanced</span>
             </div>
           </div>
           <div className={styles.skill_data}>
             <i className="fa-brands fa-square-js"></i>
             <div>
               <h3 className={styles.skill_name}>JavaScript</h3>
-              <span className={styles.skill_level}></span>
+              <span className={styles.skill_level}>advanced</span>
             </div>
           </div>
           <div className={styles.skill_data}>
             <i className="fa-brands fa-square-js"></i>
             <div>
               <h3 className={styles.skill_name}>JavaScript</h3>
-              <span className={styles.skill_level}></span>
+              <span className={styles.skill_level}>advanced</span>
             </div>
           </div>
           <div className={styles.skill_data}>
             <i className="fa-brands fa-square-js"></i>
             <div>
               <h3 className={styles.skill_name}>JavaScript</h3>
-              <span className={styles.skill_level}></span>
-            </div>
-          </div>
-          <div className={styles.skill_data}>
-            <i className="fa-brands fa-square-js"></i>
-            <div>
-              <h3 className={styles.skill_name}>JavaScript</h3>
-              <span className={styles.skill_level}></span>
+              <span className={styles.skill_level}>advanced</span>
             </div>
           </div>
         </div>
