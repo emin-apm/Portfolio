@@ -139,6 +139,7 @@ button {
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  cursor: pointer;
 }
 
 .button:hover {
@@ -180,7 +181,8 @@ button {
   }
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+}
 
 /* For small devices */
 @media screen and (max-width: 350px) {
