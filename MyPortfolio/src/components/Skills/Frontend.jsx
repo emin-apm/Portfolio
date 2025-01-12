@@ -1,5 +1,8 @@
 import styles from "./SkillsStyles.module.css";
 
+import { SiJavascript } from "react-icons/si";
+import { TbBrandJavascript } from "react-icons/tb";
+
 export default function Frontend() {
   return (
     <div className={styles.skill_content}>
@@ -21,7 +24,8 @@ export default function Frontend() {
             </div>
           </div>
           <div className={styles.skill_data}>
-            <i className="fa-brands fa-square-js"></i>
+            {/* <i className="fa-brands fa-square-js"></i> */}
+            <SiJavascript />
             <div>
               <h3 className={styles.skill_name}>JavaScript</h3>
               <span className={styles.skill_level}>advanced</span>
