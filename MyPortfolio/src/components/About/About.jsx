@@ -12,16 +12,19 @@ export default function About() {
         <div className={styles.about_data}>
           <Info />
           <p className={styles.about_description}>
-            I am Emin, a passionate programmer with a comprehensive background
-            in JavaScript, having completed the rigorous curriculum at SoftUni
-            University. Over the past year, I have dedicated myself to honing my
-            technical skills and expanding my knowledge in JavaScript, React,
-            Angular, Node.js, MongoDB, and other cutting-edge technologies. I am
-            currently engaged in the Tech Lead Academy 2 internship, where I am
-            applying my skills to real-world projects and gaining invaluable
-            industry experience.
-            <br /> I'm not just into coding, I'm also a sports enthusiast! I'm
-            always open to new opportunities to expand my skill set.
+            {/* Hi, I'm Emin, a programmer with a strong JavaScript foundation from
+            SoftUni University. Over the past year, I've honed my skills in
+            React, Angular, Node.js, and MongoDB through hands-on projects and
+            the Tech Lead Academy 2 internship. I'm not just into coding, I'm
+            also a sports enthusiast! I'm always open to new opportunities to
+            expand my skill set. */}
+            Hi, I'm Emin, a junior full-stack developer with a strong JavaScript
+            foundation from SoftUni University. My expertise includes HTML, CSS,
+            React, Angular, Node.js, Express, and MongoDB. Over the past year,
+            I've honed my skills through hands-on projects and the Tech Lead
+            Academy 2 internship. I'm not just into coding, I'm also a sports
+            enthusiast! I'm always open to new opportunities to expand my skill
+            set.
           </p>
           <div className="button button_flex">
             Check CV
