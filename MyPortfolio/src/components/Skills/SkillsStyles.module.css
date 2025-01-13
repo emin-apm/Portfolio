@@ -48,3 +48,33 @@
 .skill_level {
   font-size: var(--tiny-font-size);
 }
+
+@media screen and (max-width: 992px) {
+  .skill_container {
+    grid-template-columns: max-content;
+    row-gap: 2rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+  .skill_container {
+    grid-template-columns: 1fr;
+    .skill_content {
+      padding: 1.5rem;
+    }
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .skill_box {
+    column-gap: 1.25rem;
+  }
+  .skill_name {
+    font-size: var(--small-font-size);
+  }
+}
