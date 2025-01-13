@@ -54,7 +54,7 @@ export default function Frontend() {
             </i>
             <div>
               <h3 className={styles.skill_name}>TypeScript</h3>
-              <span className={styles.skill_level}>Advanced</span>
+              <span className={styles.skill_level}>Mid-level</span>
             </div>
           </div>
           <div className={styles.skill_data}>
@@ -69,7 +69,7 @@ export default function Frontend() {
 
             <div>
               <h3 className={styles.skill_name}>Angular</h3>
-              <span className={styles.skill_level}>Advanced</span>
+              <span className={styles.skill_level}>Mid-level</span>
             </div>
           </div>
         </div>
