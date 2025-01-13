@@ -1,7 +1,7 @@
 import styles from "./SkillsStyles.module.css";
 
-import { SiJavascript } from "react-icons/si";
-import { TbBrandJavascript } from "react-icons/tb";
+import { BiLogoTypescript } from "react-icons/bi";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 export default function Frontend() {
   return (
@@ -10,39 +10,33 @@ export default function Frontend() {
       <div className={styles.skill_box}>
         <div className={styles.skill_group}>
           <div className={styles.skill_data}>
-            <i className="fa-brands fa-square-js"></i>
+            <i class="fa-brands fa-html5"></i>
             <div>
               <h3 className={styles.skill_name}>HTML</h3>
-              <span className={styles.skill_level}>advanced</span>
+              <span className={styles.skill_level}>Advanced</span>
             </div>
           </div>
           <div className={styles.skill_data}>
-            <i className="fa-brands fa-square-js"></i>
+            <i class="fa-brands fa-css3-alt"></i>
             <div>
               <h3 className={styles.skill_name}>CSS</h3>
-              <span className={styles.skill_level}>advanced</span>
+              <span className={styles.skill_level}>Advanced</span>
             </div>
           </div>
           <div className={styles.skill_data}>
-            {/* <i className="fa-brands fa-square-js"></i> */}
-            <SiJavascript />
+            <i>
+              <RiTailwindCssFill />
+            </i>
             <div>
-              <h3 className={styles.skill_name}>JavaScript</h3>
-              <span className={styles.skill_level}>advanced</span>
+              <h3 className={styles.skill_name}>Tailwind</h3>
+              <span className={styles.skill_level}>Advanced</span>
             </div>
           </div>
           <div className={styles.skill_data}>
-            <i className="fa-brands fa-square-js"></i>
+            <i class="fa-brands fa-bootstrap"></i>
             <div>
-              <h3 className={styles.skill_name}>JavaScript</h3>
-              <span className={styles.skill_level}>advanced</span>
-            </div>
-          </div>
-          <div className={styles.skill_data}>
-            <i className="fa-brands fa-square-js"></i>
-            <div>
-              <h3 className={styles.skill_name}>JavaScript</h3>
-              <span className={styles.skill_level}>advanced</span>
+              <h3 className={styles.skill_name}>Bootstrap</h3>
+              <span className={styles.skill_level}>Advanced</span>
             </div>
           </div>
         </div>
@@ -50,36 +44,32 @@ export default function Frontend() {
           <div className={styles.skill_data}>
             <i className="fa-brands fa-square-js"></i>
             <div>
-              <h3 className={styles.skill_name}>HTML</h3>
+              <h3 className={styles.skill_name}>JavaScript</h3>
               <span className={styles.skill_level}>Advanced</span>
             </div>
           </div>
           <div className={styles.skill_data}>
-            <i className="fa-brands fa-square-js"></i>
+            <i>
+              <BiLogoTypescript />
+            </i>
             <div>
-              <h3 className={styles.skill_name}>CSS</h3>
+              <h3 className={styles.skill_name}>TypeScript</h3>
               <span className={styles.skill_level}>Advanced</span>
             </div>
           </div>
           <div className={styles.skill_data}>
-            <i className="fa-brands fa-square-js"></i>
+            <i class="fa-brands fa-react"></i>
             <div>
-              <h3 className={styles.skill_name}>JavaScript</h3>
-              <span className={styles.skill_level}></span>
+              <h3 className={styles.skill_name}>React</h3>
+              <span className={styles.skill_level}>Advanced</span>
             </div>
           </div>
           <div className={styles.skill_data}>
-            <i className="fa-brands fa-square-js"></i>
+            <i class="fa-brands fa-angular"></i>
+
             <div>
-              <h3 className={styles.skill_name}>JavaScript</h3>
-              <span className={styles.skill_level}></span>
-            </div>
-          </div>
-          <div className={styles.skill_data}>
-            <i className="fa-brands fa-square-js"></i>
-            <div>
-              <h3 className={styles.skill_name}>JavaScript</h3>
-              <span className={styles.skill_level}></span>
+              <h3 className={styles.skill_name}>Angular</h3>
+              <span className={styles.skill_level}>Advanced</span>
             </div>
           </div>
         </div>
