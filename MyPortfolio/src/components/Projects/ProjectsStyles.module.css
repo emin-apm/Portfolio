@@ -1,0 +1,41 @@
+.projects_container {
+    grid-template-columns: repeat(3, 270px);
+    justify-content: center;
+    column-gap: 1.8rem;
+}
+
+.projects_content {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--container-color);
+    padding: 6rem 0 2rem 2.5rem;
+}
+
+.projects_title {
+    font-size: var(--h3-font-size);
+    margin-bottom: 1rem;
+    font-weight: var(--font-medium);
+}
+
+
+.projects_button {
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.25rem;
+    cursor: pointer;
+}
+
+.projects_button i {
+    transition: .3s;
+    font-size: 1rem;
+}
+
+.projects_button:hover i {
+    transform: translateX(00.25rem);
+}
+
+.projects_modal {
+    display: none;
+}
