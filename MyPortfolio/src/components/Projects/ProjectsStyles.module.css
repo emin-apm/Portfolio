@@ -17,6 +17,10 @@
     font-weight: var(--font-medium);
 }
 
+.projects_buttons_container {
+    display: flex;
+    gap: 1em;
+}
 
 .projects_button {
     color: var(--title-color);
