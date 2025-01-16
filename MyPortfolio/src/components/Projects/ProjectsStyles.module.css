@@ -37,5 +37,78 @@
 }
 
 .projects_modal {
-    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: var(--z-modal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.projects_modal_content {
+    width: 500px;
+    position: relative;
+    background-color: var(--container-color);
+    padding: 4.5rem 2.5rem 2.5rem;
+    border-radius: 1.5rem;
+}
+
+.porjects_modal_close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+}
+
+.projects_modal_title,
+.projects_modal_description {
+    text-align: center;
+
+}
+
+.projects_modal_title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: 1rem;
+}
+
+.projects_modal_description {
+    font-size: var(--small-font-size);
+    padding: 0 3.5rem;
+}
+
+.projects_modal_projects {
+    row-gap: .5rem !important;
+}
+
+.projects_modal_project {
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+
+}
+
+.projects_modal_project i {
+    color: var(--title-color);
+    font-size: 1.1rem;
+}
+
+.projects_modal_info {
+    font-size: var(--small-font-size);
+}
+
+/* Active modal */
+.active_modal {
+    opacity: 1;
+    visibility: visible;
 }
