@@ -24,6 +24,7 @@ export default function Qualifications() {
                 <span className={styles.qualification_subtitle}>
                   Bulgaria-Paisy Hilendarski
                 </span>
+                <br />
                 <span className={styles.qualification_calendar}>
                   <i class="fa-regular fa-calendar"></i>
                 </span>{" "}
@@ -105,6 +106,7 @@ export default function Qualifications() {
                 <span className={styles.qualification_subtitle}>
                   Bulgaria-Paisy Hilendarski
                 </span>
+                <br />
                 <span className={styles.qualification_calendar}>
                   <i class="fa-regular fa-calendar"></i>
                 </span>{" "}
@@ -129,6 +131,7 @@ export default function Qualifications() {
                 <span className={styles.qualification_subtitle}>
                   Bulgaria-Paisy Hilendarski
                 </span>
+                <br />
                 <span className={styles.qualification_calendar}>
                   <i class="fa-regular fa-calendar"></i>
                 </span>{" "}
@@ -144,6 +147,7 @@ export default function Qualifications() {
                 <span className={styles.qualification_subtitle}>
                   Bulgaria-Paisy Hilendarski
                 </span>
+                <br />
                 <span className={styles.qualification_calendar}>
                   <i class="fa-regular fa-calendar"></i>
                 </span>{" "}
@@ -168,6 +172,7 @@ export default function Qualifications() {
                 <span className={styles.qualification_subtitle}>
                   Bulgaria-Paisy Hilendarski
                 </span>
+                <br />
                 <span className={styles.qualification_calendar}>
                   <i class="fa-regular fa-calendar"></i>
                 </span>{" "}
