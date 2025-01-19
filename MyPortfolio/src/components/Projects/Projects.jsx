@@ -77,7 +77,9 @@ export default function Projects() {
           </div>
 
           <div className={styles.projects_buttons_container}>
-            <span className={styles.projects_button}>
+            <span
+              className={`${styles.projects_button} ${styles.github_button}`}
+            >
               GitHub
               <i class="fa-brands fa-github"></i>
             </span>
