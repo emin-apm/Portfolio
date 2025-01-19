@@ -79,3 +79,34 @@
 .center {
   align-items: center;
 }
+
+@media screen and (max-width: 992px) {
+  .qualification_container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .qualification_container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .qualification_section {
+    grid-template-columns: initial;
+  }
+  .qualification_button {
+    margin: 0 0.75rem;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .qualification_data {
+    gap: 0.5rem;
+  }
+}
