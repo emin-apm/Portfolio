@@ -13,7 +13,7 @@ export default function Header({ title = "Header" }) {
       <header className={styles.header}>
         <div className={`${styles.nav} container`}>
           <a href="" className={styles.nav__logo}>
-            Emin App
+            Emin Apm
           </a>
           <div
             className={

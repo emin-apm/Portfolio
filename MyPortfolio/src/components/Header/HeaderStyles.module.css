@@ -15,7 +15,7 @@
   height: 4.5rem;
 }
 
-.nav__log,
+.nav__logo,
 .nav_toggle {
   color: var(--title-color);
   font-weight: var(--font-medium);
