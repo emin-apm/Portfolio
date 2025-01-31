@@ -7,10 +7,10 @@ export default function Social() {
         <i className="fa-brands fa-github"></i>
       </a>
       <a className={styles.home_social_icon} target="_blank">
-        <i className="fa-brands fa-linkedin"></i>
+        <i className="fa-brands fa-linkedin-in"></i>
       </a>
       <a className={styles.home_social_icon} target="_blank">
-        <i className="fa-brands fa-square-instagram"></i>
+        <i className="fa-brands fa-instagram"></i>
       </a>
     </div>
   );
