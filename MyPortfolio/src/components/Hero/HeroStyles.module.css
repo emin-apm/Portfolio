@@ -16,7 +16,7 @@
 }
 
 .home_social_icon {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   color: var(--title-color);
   transition: 0.3s ease-in-out;
 }
@@ -179,5 +179,4 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
-}
+@media screen and (max-width: 350px) {}
