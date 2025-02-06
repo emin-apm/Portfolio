@@ -3,7 +3,7 @@ import { PiMessengerLogoBold } from "react-icons/pi";
 
 export default function Contact() {
   return (
-    <section className={`${styles.contact} section`} id="contact">
+    <section className={`${styles.contact} section`} id="contacts">
       <h2 className="section_title">Get in touch</h2>
       <span className="section_subtitles">Contact Me</span>
 

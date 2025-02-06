@@ -36,7 +36,7 @@ export default function Header({ title = "Header" }) {
                 </a>
               </li>
               <li className={styles.nav__item}>
-                <a href="" className={styles.nav__link}>
+                <a href="#skills" className={styles.nav__link}>
                   <i
                     className={`fa-solid fa-file-lines ${styles.nav__icon}`}
                   ></i>
@@ -49,16 +49,17 @@ export default function Header({ title = "Header" }) {
                   Projects
                 </a>
               </li>
+
               <li className={styles.nav__item}>
-                <a href="#projects" className={styles.nav__link}>
-                  <i className={`fa-solid fa-envelope ${styles.nav__icon}`}></i>
-                  Contacts
+                <a href="#qualifications" className={styles.nav__link}>
+                  <i className={`fa-solid fa-message ${styles.nav__icon}`}></i>
+                  Qualifications
                 </a>
               </li>
               <li className={styles.nav__item}>
-                <a href="#projects" className={styles.nav__link}>
-                  <i className={`fa-solid fa-message ${styles.nav__icon}`}></i>
-                  Testimonials
+                <a href="#contacts" className={styles.nav__link}>
+                  <i className={`fa-solid fa-envelope ${styles.nav__icon}`}></i>
+                  Contacts
                 </a>
               </li>
             </ul>

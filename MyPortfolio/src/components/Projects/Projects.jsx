@@ -13,7 +13,7 @@ export default function Projects() {
   };
 
   return (
-    <section className={`${styles.projects} section`}>
+    <section className={`${styles.projects} section`} id="projects">
       <h2 className="section_title">Portfolio</h2>
       <span className="section_subtitles">Recent projects</span>
 

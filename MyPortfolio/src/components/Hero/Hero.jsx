@@ -6,7 +6,7 @@ import Social from "./Social";
 export default function Hero() {
   return (
     <>
-      <section className={`${styles.home} section`}>
+      <section className={`${styles.home} section`} id="home">
         <div className={`${styles.home_contaier} container grid`}>
           <div className={`${styles.home_content} grid`}>
             <Social />

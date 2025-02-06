@@ -2,7 +2,7 @@ import styles from "./QualificationsStyles.module.css";
 
 export default function Qualifications() {
   return (
-    <section className={`${styles.qualification} section`} id="about">
+    <section className={`${styles.qualification} section`} id="qualifications">
       <h2 className="section_title">Qualifications</h2>
       <span className="section_subtitles">My personal journey</span>
 
