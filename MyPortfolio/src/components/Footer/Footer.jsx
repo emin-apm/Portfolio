@@ -24,13 +24,25 @@ export default function Footer() {
         </ul>
 
         <div className={styles.footer_socials}>
-          <a className={styles.footer_social_link} target="_blank">
+          <a
+            className={styles.footer_social_link}
+            target="_blank"
+            href="https://github.com/emin-apm"
+          >
             <i className="fa-brands fa-github"></i>
           </a>
-          <a className={styles.footer_social_link} target="_blank">
+          <a
+            className={styles.footer_social_link}
+            target="_blank"
+            href="https://www.linkedin.com/in/emin-apm/"
+          >
             <i className="fa-brands fa-linkedin-in"></i>
           </a>
-          <a className={styles.footer_social_link} target="_blank">
+          <a
+            className={styles.footer_social_link}
+            target="_blank"
+            href="https://www.instagram.com/emin_apm/"
+          >
             <i className="fa-brands fa-instagram"></i>
           </a>
         </div>

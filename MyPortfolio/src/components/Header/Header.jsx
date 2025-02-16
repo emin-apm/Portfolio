@@ -1,6 +1,9 @@
 import { useState } from "react";
 import styles from "./HeaderStyles.module.css";
 
+import { AiOutlineAppstore } from "react-icons/ai";
+import { IoAppsSharp } from "react-icons/io5";
+
 export default function Header({ title = "Header" }) {
   const [toggle, showMenu] = useState(false);
 
@@ -70,7 +73,9 @@ export default function Header({ title = "Header" }) {
           </div>
 
           <div className={styles.nav__toggle} onClick={toggleMenu}>
-            <i className="fa-solid fa-table-cells-large"></i>
+            <i className={styles.apps_icon}>
+              <AiOutlineAppstore />
+            </i>
           </div>
         </div>
       </header>
