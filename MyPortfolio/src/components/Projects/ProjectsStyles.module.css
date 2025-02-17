@@ -1,5 +1,5 @@
 .projects_container {
-  grid-template-columns: repeat(3, 270px);
+  grid-template-columns: repeat(3, 320px);
   justify-content: center;
   column-gap: 1.8rem;
 }
@@ -9,7 +9,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--container-color);
   border-radius: 1.25rem;
-  padding: 2.25rem 1.5rem;
+  padding: 2rem 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -17,13 +17,13 @@
 .img_container {
   /* overflow: hidden; */
   border-radius: 1rem;
-  transition: 1s ease-in-out;
 }
 
 .img_container img {
   object-fit: cover;
   border-radius: 1rem;
   transition: .3s ease-in-out;
+
 }
 
 .img_container img:hover {
@@ -144,7 +144,7 @@
 
 @media screen and (max-width: 992px) {
   .projects_container {
-    grid-template-columns: repeat(3, 218px);
+    grid-template-columns: repeat(3, 240px);
   }
 }
 
