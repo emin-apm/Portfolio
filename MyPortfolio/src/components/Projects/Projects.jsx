@@ -1,6 +1,8 @@
 import { useState } from "react";
 import styles from "./ProjectsStyles.module.css";
-import imageTest from "../../assets/hero_img.jpeg";
+import monopol from "../../assets/projects/monopol.png";
+import travel_world from "../../assets/projects/travel_world.png";
+import yosif_fit from "../../assets/projects/yosif_fit.png";
 
 export default function Projects() {
   const [toggleState, setToggleState] = useState(false);
@@ -21,17 +23,19 @@ export default function Projects() {
       <div className={`${styles.projects_container} container grid`}>
         <div className={styles.projects_content}>
           <div className={styles.img_container}>
-            <img src={imageTest} alt="" />
+            <img src={travel_world} alt="" />
           </div>
-          <h3 className={styles.projects_title}>Title Here</h3>
+          <h3 className={styles.projects_title}>Travel World</h3>
 
           <div className={styles.projects_buttons_container}>
-            <span
-              className={`${styles.projects_button} ${styles.github_button}`}
-            >
-              GitHub
-              <i class="fa-brands fa-github"></i>
-            </span>
+            <a href="https://github.com/emin-apm/Travel-World" target="_blank">
+              <span
+                className={`${styles.projects_button} ${styles.github_button}`}
+              >
+                GitHub
+                <i class="fa-brands fa-github"></i>
+              </span>
+            </a>
             <span className={styles.projects_button} onClick={toggleTab}>
               View more
               <i class="fa-solid fa-arrow-right"></i>
@@ -72,17 +76,20 @@ export default function Projects() {
         </div>
         <div className={styles.projects_content}>
           <div className={styles.img_container}>
-            <img src={imageTest} alt="" />
+            <img src={yosif_fit} alt="" />
           </div>
-          <h3 className={styles.projects_title}>Title Here</h3>
+          <h3 className={styles.projects_title}>YosifFIT</h3>
 
           <div className={styles.projects_buttons_container}>
-            <span
-              className={`${styles.projects_button} ${styles.github_button}`}
-            >
-              GitHub
-              <i class="fa-brands fa-github"></i>
-            </span>
+            <a href="https://github.com/emin-apm/gym-project" target="_blank">
+              <span
+                className={`${styles.projects_button} ${styles.github_button}`}
+              >
+                GitHub
+                <i class="fa-brands fa-github"></i>
+              </span>
+            </a>
+
             <span className={styles.projects_button} onClick={toggleTab}>
               View more
               <i class="fa-solid fa-arrow-right"></i>
@@ -123,17 +130,20 @@ export default function Projects() {
         </div>
         <div className={styles.projects_content}>
           <div className={styles.img_container}>
-            <img src={imageTest} alt="" />
+            <img src={monopol} alt="" />
           </div>
-          <h3 className={styles.projects_title}>Title Here</h3>
+          <h3 className={styles.projects_title}>Monopol</h3>
 
           <div className={styles.projects_buttons_container}>
-            <span
-              className={`${styles.projects_button} ${styles.github_button}`}
-            >
-              GitHub
-              <i class="fa-brands fa-github"></i>
-            </span>
+            <a href="https://github.com/emin-apm/Monopol08" target="_blank">
+              <span
+                className={`${styles.projects_button} ${styles.github_button}`}
+              >
+                GitHub
+                <i class="fa-brands fa-github"></i>
+              </span>
+            </a>
+
             <span className={styles.projects_button} onClick={toggleTab}>
               View more
               <i class="fa-solid fa-arrow-right"></i>
