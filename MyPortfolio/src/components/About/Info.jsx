@@ -16,10 +16,12 @@ export default function Info() {
       </div>
 
       <div className={styles.about_box}>
-        <i className={`${styles.about_icon} fa-solid fa-headset`}></i>
-        <h3 className={styles.about_title}>Support</h3>
-        <span className={styles.about_subtitle}>Online 24/7</span>
+        <i className={`${styles.about_icon} fa-solid fa-gears`}></i>
+        <h3 className={styles.about_title}>Services</h3>
+        <span className={styles.about_subtitle}>Web Development</span>
       </div>
     </div>
   );
 }
+
+<i class="fa-solid fa-gears"></i>;
