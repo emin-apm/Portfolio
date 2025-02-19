@@ -17,8 +17,8 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a href="#testemonials" className={styles.footer_link}>
-              Testemonials
+            <a href="#qualifications" className={styles.footer_link}>
+              Qualifications
             </a>
           </li>
         </ul>

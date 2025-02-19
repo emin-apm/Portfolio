@@ -16,7 +16,9 @@ export default function Contact() {
                 className={`${styles.contact_card_icon} fa-regular fa-envelope`}
               ></i>
               <h3 className={styles.contact_card_title}>Email</h3>
-              <span className={styles.contact_card_data}>user@gmail.com</span>
+              <span className={styles.contact_card_data}>
+                eminapturaim@gmail.com
+              </span>
 
               <a href="" className={styles.contact_button}>
                 Write me
@@ -31,7 +33,7 @@ export default function Contact() {
                 className={`${styles.contact_card_icon} fa-brands fa-whatsapp`}
               ></i>
               <h3 className={styles.contact_card_title}>Whatsapp</h3>
-              <span className={styles.contact_card_data}>999-999-999-000</span>
+              <span className={styles.contact_card_data}>+359 988 959 853</span>
 
               <a href="" className={styles.contact_button}>
                 Write me
@@ -59,7 +61,7 @@ export default function Contact() {
         </div>
 
         <div className={styles.contact_content}>
-          <h3 className={styles.contact_title}>Write me your project</h3>
+          <h3 className={styles.contact_title}>Let's work together</h3>
 
           <form className={styles.contact_form}>
             <div className={styles.contact_form_div}>

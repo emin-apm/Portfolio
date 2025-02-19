@@ -104,13 +104,13 @@ export default function Qualifications() {
               <div>
                 <h3 className={styles.qualification_title}>JS Fundamentals</h3>
                 <span className={styles.qualification_subtitle}>
-                  Bulgaria-Paisy Hilendarski
+                  Software University
                 </span>
                 <br />
                 <span className={styles.qualification_calendar}>
                   <i class="fa-regular fa-calendar"></i>
                 </span>{" "}
-                2023 - Present
+                2023 January - April
               </div>
               <div>
                 <span className={styles.qualification_rounder}></span>
@@ -129,29 +129,27 @@ export default function Qualifications() {
               <div>
                 <h3 className={styles.qualification_title}>Js Advanced</h3>
                 <span className={styles.qualification_subtitle}>
-                  Bulgaria-Paisy Hilendarski
+                  Software University
                 </span>
                 <br />
                 <span className={styles.qualification_calendar}>
                   <i class="fa-regular fa-calendar"></i>
                 </span>{" "}
-                2023 - Present
+                2023 May - July
               </div>
             </div>
 
             <div className={styles.qualification_data}>
               <div>
-                <h3 className={styles.qualification_title}>
-                  JS Web application
-                </h3>
+                <h3 className={styles.qualification_title}>JS Backend</h3>
                 <span className={styles.qualification_subtitle}>
-                  Bulgaria-Paisy Hilendarski
+                  Software University
                 </span>
                 <br />
                 <span className={styles.qualification_calendar}>
                   <i class="fa-regular fa-calendar"></i>
                 </span>{" "}
-                2023 - Present
+                2023 August - September
               </div>
               <div>
                 <span className={styles.qualification_rounder}></span>
@@ -168,15 +166,15 @@ export default function Qualifications() {
               </div>
 
               <div>
-                <h3 className={styles.qualification_title}>JS Backend</h3>
+                <h3 className={styles.qualification_title}>JS FrontEnd</h3>
                 <span className={styles.qualification_subtitle}>
-                  Bulgaria-Paisy Hilendarski
+                  Software University
                 </span>
                 <br />
                 <span className={styles.qualification_calendar}>
                   <i class="fa-regular fa-calendar"></i>
                 </span>{" "}
-                2023 - Present
+                2023 October - 2024 February
               </div>
             </div>
           </div>
