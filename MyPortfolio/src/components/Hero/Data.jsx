@@ -9,7 +9,7 @@ export default function Data() {
         My goal is finding a job and kickstarting my career to provide value
         through my coding expertise.
       </p>
-      <a href="" className="button button_flex">
+      <a href="#contacts" className="button button_flex">
         Say Hello
         <i className={`${styles.data_icon} fa-regular fa-paper-plane`}></i>
       </a>
