@@ -23,5 +23,3 @@ export default function Info() {
     </div>
   );
 }
-
-<i class="fa-solid fa-gears"></i>;

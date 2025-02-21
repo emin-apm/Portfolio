@@ -3,6 +3,7 @@ import styles from "./ProjectsStyles.module.css";
 import monopol from "../../assets/projects/monopol.png";
 import travel_world from "../../assets/projects/travel_world.png";
 import yosif_fit from "../../assets/projects/yosif_fit.png";
+import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
   const [toggleState, setToggleState] = useState(false);
@@ -182,6 +183,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
+        <ProjectCard modalControls={{ toggleTab, closeTab, toggleState }} />
       </div>
     </section>
   );

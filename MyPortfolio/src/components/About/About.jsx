@@ -22,7 +22,7 @@ export default function About() {
           </p>
           <div className="button button_flex">
             Check CV
-            <i class={`${styles.cv_icon} fa-regular fa-file-lines`}></i>
+            <i className={`${styles.cv_icon} fa-regular fa-file-lines`}></i>
           </div>
         </div>
       </div>
