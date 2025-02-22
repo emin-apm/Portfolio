@@ -1,5 +1,6 @@
-import ProjectModal from "./ProjectModal";
 import styles from "./ProjectsStyles.module.css";
+
+import ProjectModal from "./ProjectModal";
 
 import travel_world from "../../assets/projects/travel_world.png";
 
