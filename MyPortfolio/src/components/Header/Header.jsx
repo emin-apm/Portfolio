@@ -55,7 +55,9 @@ export default function Header({ title = "Header" }) {
 
               <li className={styles.nav__item}>
                 <a href="#qualifications" className={styles.nav__link}>
-                  <i className={`fa-solid fa-message ${styles.nav__icon}`}></i>
+                  <i
+                    className={`fa-solid fa-graduation-cap ${styles.nav__icon}`}
+                  ></i>
                   Qualifications
                 </a>
               </li>
