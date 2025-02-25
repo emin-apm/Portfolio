@@ -40,6 +40,9 @@ export default function ProjectCard({ project }) {
             closeTab={closeTab}
             title={project.title}
             description={project.description}
+            frontend={project.frontend}
+            backend={project.backend}
+            demo={project.demo}
           />
         </div>
       )}

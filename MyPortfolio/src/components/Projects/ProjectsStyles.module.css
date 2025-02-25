@@ -119,6 +119,7 @@
 
 .projects_modal_projects {
   row-gap: 0.5rem !important;
+  margin-top: 1.5em;
 }
 
 .projects_modal_project {

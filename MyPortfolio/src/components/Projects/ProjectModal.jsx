@@ -1,6 +1,13 @@
 import styles from "./ProjectsStyles.module.css";
 
-export default function ProjectModal({ closeTab, title, description }) {
+export default function ProjectModal({
+  closeTab,
+  title,
+  description,
+  frontend,
+  backend,
+  demo,
+}) {
   return (
     <div className={styles.projects_modal_content}>
       <div className={styles.porjects_modal_close} onClick={closeTab}>
@@ -13,15 +20,20 @@ export default function ProjectModal({ closeTab, title, description }) {
       <ul className={`${styles.projects_modal_projects} grid`}>
         <li className={styles.projects_modal_project}>
           <i className="fa-regular fa-circle-check"></i>
-          <p className={styles.projects_modal_info}>HTML</p>
+          <p className={styles.projects_modal_info}>Frontend - {frontend}</p>
         </li>
         <li className={styles.projects_modal_project}>
           <i className="fa-regular fa-circle-check"></i>
-          <p className={styles.projects_modal_info}>CSS</p>
+          <p className={styles.projects_modal_info}>Backend - {backend}</p>
         </li>
         <li className={styles.projects_modal_project}>
           <i className="fa-regular fa-circle-check"></i>
-          <p className={styles.projects_modal_info}>React</p>
+          <p className={styles.projects_modal_info}>
+            Demo -{" "}
+            <a href={demo} target="blank_">
+              Check Out
+            </a>
+          </p>
         </li>
       </ul>
     </div>

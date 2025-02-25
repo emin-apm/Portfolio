@@ -2,35 +2,43 @@
   "portfolio": [
     {
       "id": "1",
-      "img": "./public/travel_world.png",
+      "img": "/travel_world.png",
       "title": "Travel World",
-      "description": "Travel-World is a comprehensive platform that allows users to browse, book, and manage travel packages. It offers a user-friendly interface for both travelers and administrators. Built with HTML, CSS, React, Express.js, and MongoDB.",
+      "description": "Travel-World lets users browse, book, and manage travel packages with an intuitive interface for both travelers and admins.",
       "github": "https://github.com/eminn-a/Travel-World",
-      "demo": "https://travel-world-c12.web.app/"
+      "demo": "https://travel-world-c12.web.app/",
+      "backend": "Node.JS, Express.js, MongoDB",
+      "frontend": "HTML, CSS, React"
     },
     {
       "id": "2",
-      "img": "./public/yosif_fit.png",
+      "img": "/yosif_fit.png",
       "title": "YosifFit",
-      "description": "YosifFit is a fully responsive personal trainer website, tailored to showcase your services and client successes across all devices. Built with HTML, CSS, and React, it provides an engaging and user-friendly platform for displaying membership plans, training programs, and client testimonials.",
+      "description": "YosifFit is a responsive personal trainer website that showcases services, client success, membership plans and testimonials in a user-friendly layout.",
       "github": "https://github.com/eminn-a/gym-project",
-      "demo": "https://gym-c123.web.app/"
+      "demo": "https://gym-c123.web.app/",
+      "backend": "Node.JS, Express.js, MongoDB",
+      "frontend": "HTML, CSS, React"
     },
     {
       "id": "3",
-      "img": "./public/monopol.png",
+      "img": "/monopol.png",
       "title": "Monopol 08",
-      "description": "Monopol is a fully responsive real estate website, optimized for all devices. Built with HTML, CSS, and Angular, it offers a seamless and user-friendly experience for property browsing and management. Enjoy consistent performance and an attractive interface on desktops, tablets, and smartphones.",
+      "description": "Monopol is a responsive real estate website offering a seamless, user-friendly experience for property browsing and management on all devices.",
       "github": "https://github.com/eminn-a/Monopol08",
-      "demo": "https://monopo-angular.web.app/home"
+      "demo": "https://monopo-angular.web.app/home",
+      "backend": "Serverles",
+      "frontend": "HTML, CSS, Angular"
     },
     {
       "id": "4",
-      "img": "./public/gym-project.png",
+      "img": "/gym-project.png",
       "title": "Tech Storm",
       "description": "hopping experience on t, or smartphone, Tech Storm provides consistent performance and an intuitive interface for all your tech needs.",
       "github": "https://github.com/eminn-a/TechStorm",
-      "demo": "https://techstorm-c66e0.web.app/"
+      "demo": "https://techstorm-c66e0.web.app/",
+      "backend": "Serverles",
+      "frontend": "HTML, CSS, React"
     }
   ]
 }
