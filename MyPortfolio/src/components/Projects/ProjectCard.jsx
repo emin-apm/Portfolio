@@ -1,21 +1,28 @@
 import styles from "./ProjectsStyles.module.css";
 
 import ProjectModal from "./ProjectModal";
+import { useState } from "react";
 
-import travel_world from "../../assets/projects/travel_world.png";
+export default function ProjectCard({ project }) {
+  const [toggleState, setToggleState] = useState(false);
 
-export default function ProjectCard({ modalControls }) {
-  const { toggleTab, closeTab, toggleState } = modalControls;
+  const toggleTab = () => {
+    setToggleState((x) => (x = !toggleState));
+  };
+
+  const closeTab = () => {
+    setToggleState((x) => (x = false));
+  };
 
   return (
     <div className={styles.projects_content}>
       <div className={styles.img_container}>
-        <img src={travel_world} alt="Travel World" />
+        <img src={`${project.img}`} alt={project.title} />
       </div>
-      <h3 className={styles.projects_title}>Travel World</h3>
+      <h3 className={styles.projects_title}>{project.title}</h3>
 
       <div className={styles.projects_buttons_container}>
-        <a href="https://github.com/emin-apm/Travel-World" target="_blank">
+        <a href={project.github} target="_blank">
           <span className={`${styles.projects_button} ${styles.github_button}`}>
             GitHub
             <i className="fa-brands fa-github"></i>
@@ -29,7 +36,11 @@ export default function ProjectCard({ modalControls }) {
 
       {toggleState && (
         <div className={`${styles.projects_modal} ${styles.active_modal}`}>
-          <ProjectModal closeTab={closeTab} />
+          <ProjectModal
+            closeTab={closeTab}
+            title={project.title}
+            description={project.description}
+          />
         </div>
       )}
     </div>

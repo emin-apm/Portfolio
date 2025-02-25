@@ -1,14 +1,14 @@
 import styles from "./ProjectsStyles.module.css";
 
-export default function ProjectModal({ closeTab }) {
+export default function ProjectModal({ closeTab, title, description }) {
   return (
     <div className={styles.projects_modal_content}>
       <div className={styles.porjects_modal_close} onClick={closeTab}>
         <i className="fa-solid fa-xmark"></i>
       </div>
 
-      <h3 className={styles.projects_modal_title}>Titlee heree</h3>
-      <p className={styles.projects_modal_description}>Description</p>
+      <h3 className={styles.projects_modal_title}>{title}</h3>
+      <p className={styles.projects_modal_description}>{description}</p>
 
       <ul className={`${styles.projects_modal_projects} grid`}>
         <li className={styles.projects_modal_project}>
