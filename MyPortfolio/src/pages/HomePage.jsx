@@ -8,6 +8,8 @@ import Qualifications from "../components/Qualifications/Qualifications";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 import Skills from "../components/Skills/Skills";
 
+import projects from "../data/projects.json";
+
 export default function HomePage() {
   return (
     <>
@@ -15,7 +17,7 @@ export default function HomePage() {
       <Hero />
       <About />
       <Skills />
-      <Projects />
+      <Projects projects={projects.portfolio} />
       <Qualifications />
       <Contact />
       <ScrollToTop />
