@@ -13,6 +13,8 @@ export const validateContactForm = (formData) => {
 
   if (!formData.message.trim()) {
     errors.message = "Message cannot be empty!";
+  } else if (formData.message.length < 5) {
+    errors.message = "Message must be at least 10 characters long.";
   }
 
   return errors;
