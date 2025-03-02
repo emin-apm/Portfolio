@@ -15,7 +15,10 @@ export default function SocialContacts() {
             eminapturaim@gmail.com
           </span>
 
-          <a href="" className={styles.contact_button}>
+          <a
+            href="mailto:eminapturaim@gmail.com"
+            className={styles.contact_button}
+          >
             Write me
             <i
               className={`${styles.contact_button_icon} fa-solid fa-arrow-right`}
@@ -30,7 +33,10 @@ export default function SocialContacts() {
           <h3 className={styles.contact_card_title}>Whatsapp</h3>
           <span className={styles.contact_card_data}>+359 988 959 853</span>
 
-          <a href="" className={styles.contact_button}>
+          <a
+            href="https://wa.me/359988959853"
+            className={styles.contact_button}
+          >
             Write me
             <i
               className={`${styles.contact_button_icon} fa-solid fa-arrow-right`}
@@ -45,7 +51,7 @@ export default function SocialContacts() {
           <h3 className={styles.contact_card_title}>Messenger</h3>
           <span className={styles.contact_card_data}>user.fb1323</span>
 
-          <a href="" className={styles.contact_button}>
+          <a href="https://m.me/emin.aptr" className={styles.contact_button}>
             Write me
             <i
               className={`${styles.contact_button_icon} fa-solid fa-arrow-right`}
