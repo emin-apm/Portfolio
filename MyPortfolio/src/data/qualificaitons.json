@@ -1,0 +1,28 @@
+{
+  "qualifications": [
+    {
+      "id": "1",
+      "title": "JS Advacned",
+      "school": "Software University",
+      "years": "2023 January - April"
+    },
+    {
+      "id": "2",
+      "title": "YosifFit",
+      "school": "Software University",
+      "years": "2023 January - April"
+    },
+    {
+      "id": "3",
+      "title": "Monopol 08",
+      "school": "Software University",
+      "years": "2023 January - April"
+    },
+    {
+      "id": "4",
+      "title": "Tech Storm",
+      "school": "Software University",
+      "years": "2023 January - April"
+    }
+  ]
+}
