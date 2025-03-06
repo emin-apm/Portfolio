@@ -2,27 +2,41 @@
   "qualifications": [
     {
       "id": "1",
-      "title": "JS Advacned",
+      "title": "JS Fundamentals",
       "school": "Software University",
       "years": "2023 January - April"
     },
     {
       "id": "2",
-      "title": "YosifFit",
+      "title": "Js Advanced",
       "school": "Software University",
-      "years": "2023 January - April"
+      "years": "2023 May - July"
     },
     {
       "id": "3",
-      "title": "Monopol 08",
+      "title": "JS Backend",
       "school": "Software University",
-      "years": "2023 January - April"
+      "years": "2023 August - September"
     },
     {
       "id": "4",
-      "title": "Tech Storm",
+      "title": "JS FrontEnd",
       "school": "Software University",
-      "years": "2023 January - April"
+      "years": "2023 October - 2024 February"
+    }
+  ],
+  "schoolJourney": [
+    {
+      "id": "1",
+      "title": "English with German - Secondary school ",
+      "school": "GPCE 'Prof. Dr. Asen Zlataro' - Haskovo",
+      "years": "September 2007 - May 2012"
+    },
+    {
+      "id": "2",
+      "title": "Chemistry with English - Bachelor's degree",
+      "school": "Plovdiv University 'Paisii Hilendarski' ",
+      "years": "October 2012 - May 2016"
     }
   ]
 }

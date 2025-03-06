@@ -25,15 +25,13 @@ export default function QualificationCacrd({ side, title, years, school }) {
         <Divider />
 
         <div>
-          <h3 className={styles.qualification_title}>Js Advanced</h3>
-          <span className={styles.qualification_subtitle}>
-            Software University
-          </span>
+          <h3 className={styles.qualification_title}>{title}</h3>
+          <span className={styles.qualification_subtitle}>{school}</span>
           <br />
           <span className={styles.qualification_calendar}>
             <i class="fa-regular fa-calendar"></i>
           </span>{" "}
-          2023 May - July
+          {years}
         </div>
       </div>
     );
