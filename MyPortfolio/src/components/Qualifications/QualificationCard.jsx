@@ -10,7 +10,7 @@ export default function QualificationCacrd({ side, title, years, school }) {
           <span className={styles.qualification_subtitle}>{school}</span>
           <br />
           <span className={styles.qualification_calendar}>
-            <i class="fa-regular fa-calendar"></i>
+            <i className="fa-regular fa-calendar"></i>
           </span>{" "}
           {years}
         </div>
@@ -29,7 +29,7 @@ export default function QualificationCacrd({ side, title, years, school }) {
           <span className={styles.qualification_subtitle}>{school}</span>
           <br />
           <span className={styles.qualification_calendar}>
-            <i class="fa-regular fa-calendar"></i>
+            <i className="fa-regular fa-calendar"></i>
           </span>{" "}
           {years}
         </div>

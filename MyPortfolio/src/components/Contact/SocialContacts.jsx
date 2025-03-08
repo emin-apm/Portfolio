@@ -45,7 +45,7 @@ export default function SocialContacts() {
         </div>
 
         <div className={styles.contact_card}>
-          <i class={styles.contact_card_icon}>
+          <i className={styles.contact_card_icon}>
             <PiMessengerLogoBold />
           </i>
           <h3 className={styles.contact_card_title}>Messenger</h3>

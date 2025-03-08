@@ -26,13 +26,13 @@ export default function Qualifications() {
             className={`${styles.qualification_button} button_flex`}
             onClick={setJSSchool}
           >
-            <i class="fa-solid fa-medal"></i>Education JS
+            <i className="fa-solid fa-medal"></i>Education JS
           </div>
           <div
             className={`${styles.qualification_button} button_flex`}
             onClick={setSchool}
           >
-            <i class="fa-solid fa-medal"></i>Education
+            <i className="fa-solid fa-medal"></i>Education
           </div>
         </div>
 

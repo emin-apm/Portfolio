@@ -10,7 +10,7 @@ export default function Backend() {
       <div className={styles.skill_box}>
         <div className={styles.skill_group}>
           <div className={styles.skill_data}>
-            <i class="fa-brands fa-node-js"></i>
+            <i className="fa-brands fa-node-js"></i>
             <div>
               <h3 className={styles.skill_name}>Node.js</h3>
               <span className={styles.skill_level}>Advanced</span>
