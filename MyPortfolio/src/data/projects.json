@@ -32,9 +32,9 @@
     },
     {
       "id": "4",
-      "img": "/gym-project.png",
+      "img": "/tech-storm.png",
       "title": "Tech Storm",
-      "description": "hopping experience on t, or smartphone, Tech Storm provides consistent performance and an intuitive interface for all your tech needs.",
+      "description": "Tech Storm provides a smooth laptop shopping experience with an intuitive interface, built with HTML, CSS, and React.",
       "github": "https://github.com/eminn-a/TechStorm",
       "demo": "https://techstorm-c66e0.web.app/",
       "backend": "Serverles",
