@@ -1,16 +1,23 @@
-import { useState } from "react";
-// import emailjs from "emailjs-com";
+import { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 import styles from "./ContactStyles.module.css";
 import SocialContacts from "./SocialContacts";
 import { validateContactForm } from "../../utils/validation";
 
 export default function Contact() {
+  const [success, setSuccess] = useState();
+  //to do add succes message!
   const [errors, setErrors] = useState({});
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
+
+  const form = useRef();
+  const serviceId = import.meta.env.VITE_SERVICE_ID;
+  const templateId = import.meta.env.VITE_TEMPLATE_ID;
+  const publicKey = import.meta.env.VITE_PUBLIC_KEY;
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -25,9 +32,20 @@ export default function Contact() {
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
       return;
+    } else {
+      emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
+        () => {
+          setFormData({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
     }
-
-    console.log(formData);
   };
 
   return (
@@ -41,7 +59,7 @@ export default function Contact() {
         <div className={styles.contact_content}>
           <h3 className={styles.contact_title}>Let's work together</h3>
 
-          <form className={styles.contact_form} onSubmit={sendEmail}>
+          <form className={styles.contact_form} ref={form} onSubmit={sendEmail}>
             <div className={styles.contact_form_div}>
               <label className={styles.contact_form_tag}>Name</label>
               <input
