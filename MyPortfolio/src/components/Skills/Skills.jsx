@@ -8,6 +8,7 @@ export default function Skills() {
       <h2 className="section_title">Skills</h2>
       <span className="section_subtitles">My Tech Stack</span>
       <div className={`${styles.skill_container} container grid`}>
+        {/* TODO:refactoring skills  */}
         <Frontend />
         <Backend />
       </div>
