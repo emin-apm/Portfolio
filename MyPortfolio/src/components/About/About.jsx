@@ -2,6 +2,8 @@ import styles from "./AboutStyles.module.css";
 import AboutImg from "../../assets/about_img.jpg";
 import Info from "./Info";
 
+import myCv from "../../assets/myCv.pdf";
+
 export default function About() {
   return (
     <section className={`${styles.about} section`} id="about">
@@ -20,10 +22,12 @@ export default function About() {
             enthusiast! I'm always open to new opportunities to expand my skill
             set.
           </p>
-          <div className="button button_flex">
-            Check CV
-            <i className={`${styles.cv_icon} fa-regular fa-file-lines`}></i>
-          </div>
+          <a href={myCv} download="EminApturaim-CV.pdf">
+            <div className="button button_flex">
+              Check CV
+              <i className={`${styles.cv_icon} fa-regular fa-file-lines`}></i>
+            </div>
+          </a>
         </div>
       </div>
     </section>
