@@ -17,10 +17,10 @@ export default function About() {
             Hi, I'm Emin, a junior full-stack developer with a strong JavaScript
             foundation from SoftUni University. My expertise includes HTML, CSS,
             React, Angular, Node.js, Express, and MongoDB. Over the past year,
-            I've honed my skills through hands-on projects and the Tech Lead
-            Academy 2 internship. I'm not just into coding, I'm also a sports
-            enthusiast! I'm always open to new opportunities to expand my skill
-            set.
+            I’ve sharpened my skills through hands-on projects and the Tech Lead
+            Academy 2 internship. Beyond coding, I’m a passionate sports
+            enthusiast. I’m always eager to explore new opportunities to grow my
+            skill set and contribute to impactful projects.
           </p>
           <a href={myCv} download="EminApturaim-CV.pdf">
             <div className="button button_flex">
