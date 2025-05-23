@@ -1,6 +1,17 @@
 {
   "portfolio": [
     {
+      "id": "0",
+      "img": "https://i0.wp.com/evalparticipativa.net/wp-content/uploads/2020/06/Sin-t%C3%ADtulo-3.jpg?fit=898%2C594&ssl=1",
+      "title": "FilmHub",
+      "description": "FilmHub is a movie catalog platform where users can explore films with IMDb scores, watch trailers, and access third-party streaming links—all through an intuitive interface designed for movie enthusiasts.",
+      "github": "https://github.com/emin-apm/FilmHub",
+      "demo": "https://film-hub.web.app/",
+      "backend": "Node.JS, Express.js, MongoDB",
+      "frontend": "HTML, CSS, React"
+    },
+
+    {
       "id": "1",
       "img": "/travel_world.png",
       "title": "Travel World",
