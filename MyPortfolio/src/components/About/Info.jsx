@@ -12,7 +12,7 @@ export default function Info() {
       <div className={styles.about_box}>
         <i className={`${styles.about_icon} fa-solid fa-briefcase`}></i>
         <h3 className={styles.about_title}>Completed</h3>
-        <span className={styles.about_subtitle}>4 live projects</span>
+        <span className={styles.about_subtitle}>5+ live projects</span>
       </div>
 
       <div className={styles.about_box}>
